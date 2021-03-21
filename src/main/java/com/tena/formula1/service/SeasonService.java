@@ -1,4 +1,4 @@
-package com.tena.formula1.controller;
+package com.tena.formula1.service;
 
 import java.util.Map;
 
@@ -18,4 +18,6 @@ public interface SeasonService {
      * @return Map&lt;String, Integer&gt
      */
     Map<String, Integer> getTeamsPerformance(int position);
+
+
 }
